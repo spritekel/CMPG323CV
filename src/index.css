@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.k-card {
+  margin: 20px;
+
+}
+
+.k-card-image {
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  box-shadow: 0px 0px 3px 1px rgba(233, 232, 232, 0);
+}
+
+.k-image-left{
+  float: right;
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: auto;
+  display: flex;
+  width: 25%;
+}
+
+.k-image-right{
+  float: left;
+  width: 300px;
+  height: 500px;
+  margin-left: 20px;
+  margin-right: auto;
+  display: flex;
+  width: 25%;
+}
+
+.k-card-info {
+  margin: 10px;
+  min-height: 100px;
+}
+
+.g-card-title {
+  font-size: 24px;
+  margin: 0px;
+}
+
+.k-card-sub-title {
+  font-size: 16px;
+  margin: 0px;
+}
+
+.success-msg{
+  color: green;
+  padding: 10px 15px;
+}
+
+.err-msg{
+  color: red;
+  padding: 10px 15px;
+}
+	
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+}
+
+.p{
+  padding-left: 35px;
+  text-align: left;
+}
+
+.progress{
+  margin-left: auto;
+  margin-right: auto;
+  position:relative;
+  width:500px;
+  border:1px solid rgb(218, 217, 217);
+  position:relative;
+  padding:3px;
+}
+.bar{
+  background-color:#2a67ec73;
+  width:70%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar1{
+  background-color:#2a67ec73;
+  width:100%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar2{
+  background-color:#2a67ec73;
+  width:80%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar3{
+  background-color:#2a67ec73;
+  width:90%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar4{
+  background-color:#2a67ec73;
+  width:40%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar5{
+  background-color:#2a67ec73;
+  width:60%;
+  height:20px;
+  transition:width 150ms;
+}
+.bar6{
+  background-color:#2a67ec73;
+  width:50%;
+  height:20px;
+  transition:width 150ms;
+}
+.percent{
+  position:absolute;
+  display:inline-block;
+  top:3px;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.centreAll{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: 1px solid grey;
+}
